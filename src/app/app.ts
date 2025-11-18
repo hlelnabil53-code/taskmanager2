@@ -6,7 +6,8 @@ import { TaskService } from './task-service';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, RouterLink
+  imports: [RouterOutlet, Task,UpperCasePipe,LowerCasePipe,TitleCasePipe,
+    DatePipe,CurrencyPipe,PercentPipe,DecimalPipe,RouterLink
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
